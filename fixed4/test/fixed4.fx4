@@ -1,0 +1,12 @@
+extern void printf;
+void tes(int a, int b) {
+	printf("a: %d, ", a);
+	printf("b: %d, ", b);
+	return;
+}
+void main() {
+	int w;
+	w = 12;
+	tes(w, 72);
+	return 0;
+}
